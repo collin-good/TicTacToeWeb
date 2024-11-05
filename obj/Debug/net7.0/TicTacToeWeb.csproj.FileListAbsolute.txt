@@ -29,3 +29,4 @@ D:\C#\TicTacToeWeb\obj\Debug\net7.0\refint\TicTacToeWeb.dll
 D:\C#\TicTacToeWeb\obj\Debug\net7.0\TicTacToeWeb.pdb
 D:\C#\TicTacToeWeb\obj\Debug\net7.0\TicTacToeWeb.genruntimeconfig.cache
 D:\C#\TicTacToeWeb\obj\Debug\net7.0\ref\TicTacToeWeb.dll
+D:\C#\TicTacToeWeb\obj\Debug\net7.0\TicTacToeWeb.sourcelink.json
