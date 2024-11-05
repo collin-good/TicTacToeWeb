@@ -1,0 +1,8 @@
+﻿@page "/"
+@using TicTacToeWeb.Data;
+@model TicTacTowWeb.Pages.TicTacToeModel
+@{
+    ViewData["Title"] = "Tic-Tac-Toe";
+
+    <h1>It is player @{Model._service.GetPlayerTurn();}s turn</h1>
+}
