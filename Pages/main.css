@@ -1,0 +1,14 @@
+div {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: none;
+    background-color: #00F;
+}
+
+.tile {
+    height: 30px;
+    width: 30px;
+    background-color: #AAA;
+    color: black;
+}
