@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="main.css">
     </head>
 
-    <h1>It is @{
-            Model._service.GetPlayerTurn();
-        }s turn</h1>
+    <h1>It is @Model._service.GetPlayerTurn()'s turn</h1>
 
     <body>
         <div id="TicTacToe_Board">
@@ -23,13 +21,11 @@
                             <td class="tile">
                                 @if (Model._service.GetBoardTile(i, j) == ' ')
                                 {
-                                    <button id="TicTacToeButton" onclick="@{
-                                                Model._service.TileClicked(i,j);
-                                                            }"></button>
+                                    <button id="TicTacToeButton" class="tile" onclick="@Model._service.TileClicked(i,j)"></button>
                                 }
                                 else
                                 {
-                                    <p class="tile">@Model._service.GetBoardTile(i, j);</p>
+                                    <p class="tile">@Model._service.GetBoardTile(i, j)</p>
                                 }
                             </td>
                         }

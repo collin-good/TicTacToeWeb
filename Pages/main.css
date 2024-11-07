@@ -6,9 +6,16 @@ div {
     background-color: #00F;
 }
 
+tr {
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+
 .tile {
-    height: 30px;
-    width: 30px;
-    background-color: #AAA;
+    height: 50px;
+    width: 50px;
+    padding-left: 30px;
+    background-color: #CCC;
     color: black;
 }
